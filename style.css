@@ -1,0 +1,85 @@
+/* hello css
+
+body { 
+    background-color: black;
+    color: white;
+}
+
+.text{ 
+    color: rosybrown;
+
+}
+
+.maintext{ 
+    color: rgb(224, 171, 123);
+}
+
+
+ */
+
+
+ /* 2 ////comment////
+ video 12
+ attribute-selectors */
+
+
+ /* a[href] {
+     color: aqua;
+ }
+
+
+ a[href="http://amazon.com"] {
+color: black;
+
+ }
+
+ a[href*="spacex"]{
+     color: blueviolet;
+ }
+
+ a[href$="org"] {
+    background-color: rgb(232, 243, 231);
+    color: rgb(192, 122, 122);
+ }
+
+ li[class~="item"] a{
+ color: brown;
+ 
+ } */
+
+
+ /* 3 ////comment////
+ video 13
+combinators  */
+
+/* li > span {
+    background-color: rgb(236, 144, 144);
+}
+
+
+li + span {
+    background-color: lightgreen;
+}
+
+li.item + span {
+    background-color: lime;
+
+}
+
+li.item ~ span {
+    background-color: maroon;
+
+} */
+
+.item a {
+
+    transition: background-color 1s ease-in;
+
+    text-decoration: none;
+
+}
+
+.item:hover a {
+    background-color: violet;
+}
+
