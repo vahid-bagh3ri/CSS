@@ -1,21 +1,36 @@
-/* hello css
 
-body { 
+
+*{ 
     background-color: black;
     color: white;
 }
 
-.text{ 
+ .text{ 
     color: rosybrown;
 
-}
+} 
 
-.maintext{ 
+ .maintext{ 
     color: rgb(224, 171, 123);
+} 
+
+.inputshit {
+ padding: 0px;
+ margin: 5px 10px;
+ width: 100px;
+ height: 15px;
+ border: 2px solid sienna ;
+
+
 }
 
 
- */
+
+.inputshit.tel{
+    padding-left: 9px;
+} 
+
+
 
 
  /* 2 ////comment////
@@ -71,7 +86,7 @@ li.item ~ span {
 
 } */
 
-.item a {
+/* .item a {
 
     transition: background-color 1s ease-in;
 
@@ -82,4 +97,4 @@ li.item ~ span {
 .item:hover a {
     background-color: violet;
 }
-
+ */
