@@ -8,6 +8,12 @@
 .container {
     background-image: url(./img/image.jpg);
     background-size: cover;
+    /* background-position: 0px; */
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    /* background-clip: ; */
+    background-attachment: fixed;
+    padding-left: 7px;
 }
 
 
@@ -30,11 +36,19 @@
 
 }
 
+.inputshitcategory{
+    border: 2px solid sienna ;
 
+}
 
 .inputshit.tel{
     padding-left: 9px;
 } 
+
+.inputshitcomment {
+    border: 2px solid sienna ;
+    height: 94px; width: 212px;
+}
 
 
 
