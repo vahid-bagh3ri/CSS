@@ -6,7 +6,10 @@
 } */
 
 .container {
-    background: url(./img/image.jpg) no-repeat padding-box fixed 100%/cover ;
+    background: 
+    /* linear-gradient( 270deg, rgba(64,59,74, .2) ,rgba(231,233,187, .4 ) ) , */
+    linear-gradient(90deg , rgba(29,43,100, .4) , rgba(248,205,218, .6) ) ,
+     url(./img/image.jpg) no-repeat padding-box fixed 40%/cover; 
     /* background-size: cover; */
     /* background-position: 0px; 
     background-repeat: no-repeat;
@@ -14,7 +17,10 @@
     background-clip: ; 
     background-attachment: fixed; */
     padding-left: 7px;
+    
+    
 }
+
 
 
  .text{ 
@@ -32,13 +38,14 @@
  width: 100px;
  height: 15px;
  border: 2px solid sienna ;
+ border-radius: 5px;
 
 
 }
 
 .inputshitcategory{
     border: 2px solid sienna ;
-
+    border-radius: 5px;
 }
 
 .inputshit.tel{
@@ -48,6 +55,7 @@
 .inputshitcomment {
     border: 2px solid sienna ;
     height: 94px; width: 212px;
+    border-radius: 5px;
 }
 
 
