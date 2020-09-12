@@ -1,9 +1,15 @@
 
 
-*{ 
-    background-color: black;
-    color: white;
+/* *{ 
+     background-color: black; 
+     color: white; 
+} */
+
+.container {
+    background-image: url(./img/image.jpg);
+    background-size: cover;
 }
+
 
  .text{ 
     color: rosybrown;
