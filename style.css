@@ -1,9 +1,26 @@
 
 
-*{ 
-    background-color: black;
-    color: white;
+/* *{ 
+     background-color: black; 
+     color: white; 
+} */
+
+.container {
+    background: 
+    /* linear-gradient( 270deg, rgba(64,59,74, .2) ,rgba(231,233,187, .4 ) ) , */
+    linear-gradient(150deg , rgba(29,43,100, .3) 70% , rgba(248,205,218, .5) ) ,
+     url(./img/image.jpg) no-repeat padding-box fixed 40%/cover; 
+    /* background-size: cover; */
+    /* background-position: 0px; 
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-clip: ; 
+    background-attachment: fixed; */
+    padding-left: 7px;
+    
 }
+
+
 
  .text{ 
     color: rosybrown;
@@ -19,19 +36,35 @@
  margin: 5px 10px;
  width: 100px;
  height: 15px;
- border: 2px solid sienna ;
-
+ border: 2px solid  sienna ;
+ border-radius: 5px;
+ background-color: rgba(35, 34, 75, 0.1);
 
 }
 
-
+.inputshitcategory{
+    border: 2px solid sienna ;
+    border-radius: 5px;
+    background-color: rgba(35, 34, 75, 0.1);
+}
 
 .inputshit.tel{
     padding-left: 9px;
 } 
 
+.inputshitcomment {
+    border: 2px solid sienna ;
+    height: 94px; width: 212px;
+    border-radius: 5px;
+    background-color: rgba(35, 34, 75, 0.1);
+}
 
 
+.button {
+    background-color: rgba(35, 34, 75, 0.1);
+    border: 2px solid sienna ;
+
+}
 
  /* 2 ////comment////
  video 12
