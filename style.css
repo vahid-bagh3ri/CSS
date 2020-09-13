@@ -36,8 +36,9 @@
  .maintext{ 
     color: rgb(224, 171, 123);
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-    font-family: vahid;
-    font-weight: bold;
+    font: bold 17px "vahid";
+    /* font-family: vahid;
+    font-weight: bold; */
 } 
 
 
