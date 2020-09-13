@@ -5,6 +5,12 @@
      color: white; 
 } */
 
+@font-face{
+     font-family: vahid;
+     src: url(./font/seguihis.ttf) format("truetype");
+      
+}
+
 .container {
     background: 
     /* linear-gradient( 270deg, rgba(64,59,74, .2) ,rgba(231,233,187, .4 ) ) , */
@@ -29,7 +35,9 @@
 
  .maintext{ 
     color: rgb(224, 171, 123);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: vahid;
+    font-weight: bold;
 } 
 
 
