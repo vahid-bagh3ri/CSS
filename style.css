@@ -31,6 +31,8 @@
  .text{ 
     color: rosybrown;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
 } 
 
  .maintext{ 
@@ -39,17 +41,22 @@
     font: bold 17px "vahid";
     /* font-family: vahid;
     font-weight: bold; */
+    text-align: left;
+    /* text-decoration: underline; */
+    text-shadow: 2px 1px 2px rgb(46, 45, 45); 
 } 
 
 
 .inputshit {
- padding: 0px;
+ padding-left: 3px;
  margin: 5px 10px;
  width: 100px;
  height: 15px;
  border: 2px solid  sienna ;
  border-radius: 5px;
  background-color: rgba(35, 34, 75, 0.1);
+ color: rgb(247, 225, 238);
+
 
 }
 
@@ -67,7 +74,7 @@
 } 
 
 ::placeholder {
-    color: rgb(247, 225, 238);
+    color: rgba(247, 225, 238, 0.5);
     font-size: 1em;
   }
 
@@ -76,6 +83,8 @@
     height: 94px; width: 212px;
     border-radius: 5px;
     background-color: rgba(35, 34, 75, 0.1);
+    padding-left: 3px;
+    color: rgb(247, 225, 238);
 }
 
 
