@@ -5,6 +5,11 @@
      color: white; 
 } */
 
+html{
+    font-size: 62.5%;
+}
+
+
 @font-face{
      font-family: vahid;
      src: url(./font/seguihis.ttf) format("truetype");
@@ -15,7 +20,8 @@
     background: 
     /* linear-gradient( 270deg, rgba(64,59,74, .2) ,rgba(231,233,187, .4 ) ) , */
     linear-gradient(150deg , rgba(29,43,100, .3) 70% , rgba(248,205,218, .5) ) ,
-     url(./img/image.jpg) no-repeat padding-box fixed 40%/cover; 
+     url(./img/image.jpg) no-repeat padding-box fixed 40%/cover
+     ; width: 99.2%; height: 100%;
     /* background-size: cover; */
     /* background-position: 0px; 
     background-repeat: no-repeat;
@@ -27,43 +33,53 @@
 }
 
 
-
  .text{ 
     color: rosybrown;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 1.4rem;
+    margin-left: 1.2rem;
+    margin-right: none;
 
 } 
+
+input.checkbox{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
 
  .maintext{ 
     color: rgb(224, 171, 123);
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-    font: bold 17px "vahid";
+    font: bold 1.6rem "vahid";
     /* font-family: vahid;
     font-weight: bold; */
     text-align: left;
     /* text-decoration: underline; */
     text-shadow: 2px 1px 2px rgb(46, 45, 45); 
+    margin-bottom: 1rem;
 } 
 
 
-.inputshit {
+.inputshit  {
  padding-left: 3px;
  margin: 5px 10px;
  width: 100px;
  height: 15px;
  border: 2px solid  sienna ;
- border-radius: 5px;
+ border-radius: 0.8rem;
  background-color: rgba(35, 34, 75, 0.1);
  color: rgb(247, 225, 238);
-
+ /* text-transform: capitalize; */
 
 }
 
 
 .inputshitcategory{
     border: 2px solid sienna ;
-    border-radius: 5px;
+    border-radius: 0.8rem;
     background-color: rgba(35, 34, 75, 0.1);
 }
 
@@ -81,7 +97,7 @@
 .inputshitcomment {
     border: 2px solid sienna ;
     height: 94px; width: 212px;
-    border-radius: 5px;
+    border-radius: 0.8rem;
     background-color: rgba(35, 34, 75, 0.1);
     padding-left: 3px;
     color: rgb(247, 225, 238);
@@ -91,8 +107,11 @@
 .button {
     background-color: rgba(35, 34, 75, 0.1);
     border: 2px solid sienna ;
-    border-radius: 5px;
+    border-radius: 0.8rem;
 }
+
+
+
     
  /* 2 ////comment////
  video 12
