@@ -28,7 +28,7 @@ html{
     background-origin: padding-box;
     background-clip: ; 
     background-attachment: fixed; */
-    padding-left: 7px;
+    padding-left: 0.7rem;
     
 }
 
@@ -58,18 +58,18 @@ input.checkbox{
     font-weight: bold; */
     text-align: left;
     /* text-decoration: underline; */
-    text-shadow: 2px 1px 2px rgb(46, 45, 45); 
+    text-shadow: 0.2rem 0.1rem 0.2rem rgb(46, 45, 45); 
     margin-bottom: 1rem;
 } 
 
 
 .inputshit  {
- padding-left: 3px;
- margin: 5px 10px;
- width: 100px;
- height: 15px;
+ padding-left: 0.3rem;
+ margin: 0.5rem 1rem;
+ width: 10rem;
+ height: 1.5rem;
  border: 2px solid  sienna ;
- border-radius: 0.8rem;
+ border-radius: 8px;
  background-color: rgba(35, 34, 75, 0.1);
  color: rgb(247, 225, 238);
  /* text-transform: capitalize; */
@@ -79,13 +79,13 @@ input.checkbox{
 
 .inputshitcategory{
     border: 2px solid sienna ;
-    border-radius: 0.8rem;
+    border-radius: 8px;
     background-color: rgba(35, 34, 75, 0.1);
 }
 
 
 .inputshit.tel{
-    padding-left: 9px;
+    padding-left: 0.9rem;
     
 } 
 
@@ -96,18 +96,18 @@ input.checkbox{
 
 .inputshitcomment {
     border: 2px solid sienna ;
-    height: 94px; width: 212px;
-    border-radius: 0.8rem;
+    height: 9.4rem; width: 21.2rem;
+    border-radius: 8px;
     background-color: rgba(35, 34, 75, 0.1);
-    padding-left: 3px;
+    padding-left: 0.3rem;
     color: rgb(247, 225, 238);
 }
 
 
 .button {
-    background-color: rgba(35, 34, 75, 0.1);
     border: 2px solid sienna ;
-    border-radius: 0.8rem;
+    background-color: rgba(35, 34, 75, 0.1);
+    border-radius: 8px;
 }
 
 
